@@ -94,3 +94,61 @@ Create Account
 `;
 
 }
+function showHome(){
+
+app.innerHTML=`
+
+<div class="screen">
+
+<h1 style="
+font-size:60px;
+color:#E50914;
+margin-bottom:10px;
+">
+
+W
+
+</h1>
+
+<h2>
+
+Welcome to W
+
+</h2>
+
+<p style="color:#aaa">
+
+Unlimited Movies & Series
+
+</p>
+
+<br>
+
+<div class="movie-card">
+
+<img
+src="https://picsum.photos/350/180"
+style="
+width:100%;
+border-radius:15px;
+">
+
+<h3>
+
+The First Movie
+
+</h3>
+
+<p>
+
+Coming Soon...
+
+</p>
+
+</div>
+
+</div>
+
+`;
+
+}
