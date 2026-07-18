@@ -8,3 +8,10 @@ document.getElementById("btn").onclick = function () {
     "<h1>الصفحة الرئيسية</h1>" +
     "<p>Unlimited Movies & Series</p>";
 };
+
+alert("1");
+
+document.getElementById("app").innerHTML =
+"<h1>W</h1>";
+
+alert("2");
